@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount  Card</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <section class="container mt-5">
+        <div class="row">
+            <div class="col col-5 border border-danger border-1 bg-info-subtle bg-gradient text-black rounded rounded-3 p-5 text-start">
+                <h2>Price: <span id="price">1000</span></h2>
+                <div class="d-flex mb-2">
+                    <h5 class="flex-column">30% Discount :</h5>
+                    <input class="col" type="text" id="coupon-code" placeholder="Enter Your Coupon Code">
+                </div>
+                <button id="discount-btn" class="btn btn-warning mb-3">Apply</button>
+                <h2>Please Pay :<span id="discount-price">00</span></h2>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
+<script src="js/functional.js"></script>
+<script src="js/discount.js"></script>
+</html>
